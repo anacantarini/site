@@ -4,5 +4,9 @@ title = "Meu Site"
 
 theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
 
+[module]
+  [[module.imports]]
+    path = "github.com/zerostaticthemes/hugo-winston-theme"
+
 [params]
   description = "Meu site pessoal com Hugo Winston"

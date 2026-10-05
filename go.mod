@@ -1,3 +1,3 @@
-module github.com/SEU_USUARIO/meu-site
+module github.com/anacantarini/meu-site
 
 go 1.20

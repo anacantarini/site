@@ -1,25 +1,36 @@
 baseURL = "https://anacantarini.github.io/site/"
-locale = "pt-br"
+languageCode = "pt-br"
 title = "Ana Cantarini | Terapeuta"
 
-theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
+theme = ["github.com/gurusabarish/hugo-profile"]
 
 [module]
   [[module.imports]]
-    path = "github.com/zerostaticthemes/hugo-winston-theme"
+    path = "github.com/gurusabarish/hugo-profile"
 
-# --- PERSONALIZAÇÃO DE CORES E IDENTIDADE ---
 [params]
+  title = "Ana Cantarini"
   description = "Apoio terapêutico para te ajudar a fazer novas escolhas e parar de repetir os mesmos ciclos."
-  
-  # Paleta Suave e Minimalista (Tons Terrosos / Off-White Acolhedor)
-  color_primary = "#8B5A2B"      # Tom terroso acolhedor para links e destaques
-  color_background = "#FDFBF7"   # Fundo creme/off-white suave
-  color_text = "#2C2C2C"         # Texto grafite escuro (leitura confortável)
+  favicon = "images/avatar.jpg"
 
-  # Foto e Nome
-  author_image = "images/avatar.jpg"
-  author_name = "Ana Cantarini"
+  # Configurações do Tema / Cores
+  color = { main = "#8B5A2B" } # Tom terroso principal
+  
+  # Foto e Apresentação Principal (Hero Section)
+  [params.hero]
+    enable = true
+    intro = "Olá, eu sou a"
+    title = "Ana Cantarini"
+    subtitle = "Atendimento Terapêutico & Escuta Terapêutica"
+    content = "Apoio terapêutico para te ajudar a fazer novas escolhas e abrir espaço interno, com autonomia e no seu próprio tempo."
+    image = "images/avatar.jpg"
+    roundImage = true
+
+  # Seção "Sobre" na Página Inicial
+  [params.about]
+    enable = true
+    title = "Sobre o Atendimento"
+    content = "Você não precisa seguir sozinha. Ter companhia para aprofundar te ajuda a dar saltos de consciência e parar de repetir os mesmos ciclos."
 
 # --- MENU DE NAVEGAÇÃO ---
 [[menu.main]]
@@ -28,30 +39,20 @@ theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
   weight = 1
 
 [[menu.main]]
-  name = "Recursos"
-  url = "/recursos/"
-  weight = 2
-
-[[menu.main]]
   name = "Sessões"
   url = "/sessoes/"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   name = "Podcast"
   url = "/podcast/"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Contato"
   url = "/contato/"
-  weight = 5
+  weight = 4
 
 # --- REDES SOCIAIS ---
 [[params.social]]
-  name = "Instagram"
-  url = "https://instagram.com/anacantarini"
-
-[[params.social]]
-  name = "Substack / Blog"
-  url = "https://anacantarini.substack.com"
+  instagram = "https://instagram.com/anacantarini"

@@ -1,6 +1,6 @@
 baseURL = "https://anacantarini.github.io/site/"
 locale = "pt-br"
-title = "Meu Site"
+title = "Ana Cantarini | Terapeuta"
 
 theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
 
@@ -8,18 +8,18 @@ theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
   [[module.imports]]
     path = "github.com/zerostaticthemes/hugo-winston-theme"
 
-# --- PERSONALIZAÇÃO DE CORES E VISUAL ---
+# --- PERSONALIZAÇÃO DE CORES E IDENTIDADE ---
 [params]
-  description = "Reflexões sobre psicanálise, cotidiano e escuta."
+  description = "Apoio terapêutico para te ajudar a fazer novas escolhas e parar de repetir os mesmos ciclos."
   
-  # Alteração de Cores (substitua pelos códigos HEX da sua preferência)
-  color_primary = "#2b3a4a"      # Cor principal dos links e destaques
-  color_background = "#faf9f6"   # Cor de fundo da página (tom suave/off-white)
-  color_text = "#222222"         # Cor do texto principal
+  # Paleta Suave e Minimalista (Tons Terrosos / Off-White Acolhedor)
+  color_primary = "#8B5A2B"      # Tom terroso acolhedor para links e destaques
+  color_background = "#FDFBF7"   # Fundo creme/off-white suave
+  color_text = "#2C2C2C"         # Texto grafite escuro (leitura confortável)
 
-  # Foto de Perfil (coloque a foto na pasta static/images/avatar.jpg)
+  # Foto e Nome
   author_image = "images/avatar.jpg"
-  author_name = "Seu Nome"
+  author_name = "Ana Cantarini"
 
 # --- MENU DE NAVEGAÇÃO ---
 [[menu.main]]
@@ -28,20 +28,30 @@ theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
   weight = 1
 
 [[menu.main]]
-  name = "Textos"
-  url = "/posts/"
+  name = "Recursos"
+  url = "/recursos/"
   weight = 2
 
 [[menu.main]]
-  name = "Sobre"
-  url = "/sobre/"
+  name = "Sessões"
+  url = "/sessoes/"
   weight = 3
 
-# --- REDES SOCIAIS / LINKS DO RODAPÉ ---
+[[menu.main]]
+  name = "Podcast"
+  url = "/podcast/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contato"
+  url = "/contato/"
+  weight = 5
+
+# --- REDES SOCIAIS ---
 [[params.social]]
   name = "Instagram"
-  url = "https://instagram.com/seuusuario"
+  url = "https://instagram.com/anacantarini"
 
 [[params.social]]
-  name = "Substack"
-  url = "https://seusubstack.substack.com"
+  name = "Substack / Blog"
+  url = "https://anacantarini.substack.com"

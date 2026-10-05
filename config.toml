@@ -8,5 +8,40 @@ theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
   [[module.imports]]
     path = "github.com/zerostaticthemes/hugo-winston-theme"
 
+# --- PERSONALIZAÇÃO DE CORES E VISUAL ---
 [params]
-  description = "Meu site pessoal com Hugo Winston"
+  description = "Reflexões sobre psicanálise, cotidiano e escuta."
+  
+  # Alteração de Cores (substitua pelos códigos HEX da sua preferência)
+  color_primary = "#2b3a4a"      # Cor principal dos links e destaques
+  color_background = "#faf9f6"   # Cor de fundo da página (tom suave/off-white)
+  color_text = "#222222"         # Cor do texto principal
+
+  # Foto de Perfil (coloque a foto na pasta static/images/avatar.jpg)
+  author_image = "images/avatar.jpg"
+  author_name = "Seu Nome"
+
+# --- MENU DE NAVEGAÇÃO ---
+[[menu.main]]
+  name = "Início"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Textos"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Sobre"
+  url = "/sobre/"
+  weight = 3
+
+# --- REDES SOCIAIS / LINKS DO RODAPÉ ---
+[[params.social]]
+  name = "Instagram"
+  url = "https://instagram.com/seuusuario"
+
+[[params.social]]
+  name = "Substack"
+  url = "https://seusubstack.substack.com"

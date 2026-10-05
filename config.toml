@@ -1,7 +1,8 @@
-baseURL = "https://SEU_USUARIO.github.io/meu-site/"
-languageCode = "pt-br"
+baseURL = "https://anacantarini.github.io/meu-site/"
+locale = "pt-br"
 title = "Meu Site"
-theme = "hugo-winston-theme"
+
+theme = ["github.com/zerostaticthemes/hugo-winston-theme"]
 
 [params]
   description = "Meu site pessoal com Hugo Winston"

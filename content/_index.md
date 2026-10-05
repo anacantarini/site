@@ -1,6 +1,14 @@
 ---
-title: "Olá, eu sou a Ana Cantarini"
-description: "Sua descrição curta ou bio aqui."
+title: "Uma nova vida começa aqui"
+description: "Atendimento terapêutico para te ajudar a parar de repetir os mesmos ciclos e reescrever sua história."
 ---
 
-Bem-vindo ao meu site pessoal! Este espaço foi construído com Hugo e o tema Winston.
+Apoio terapêutico para te ajudar a fazer novas escolhas e abrir espaço interno, com autonomia e no seu próprio tempo.
+
+Você não precisa seguir sozinha. Ter companhia para aprofundar te ajuda a dar saltos de consciência.
+
+---
+
+### Sementes para Reflexão
+
+> *"Por que tantas mulheres duvidam de si mesmas? Quando perdemos a escuta do nosso saber interno, tudo fora de nós ganha mais força do que deveria."*

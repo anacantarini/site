@@ -14,7 +14,7 @@ theme = ["github.com/gurusabarish/hugo-profile"]
   favicon = "images/avatar.jpg"
 
   # Configurações do Tema / Cores
-  color = { main = "#8B5A2B" } # Tom terroso principal
+  color = { main = "#8B5A2B" }
   
   # Foto e Apresentação Principal (Hero Section)
   [params.hero]

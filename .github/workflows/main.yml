@@ -3,7 +3,7 @@ name: Deploy Hugo Site to Pages
 on:
   push:
     branches:
-      - master # Altere para 'master' se a branch principal do repo antigo for master
+      - develop # Altere para 'master' se a branch principal do repo antigo for master
 
 permissions:
   contents: read

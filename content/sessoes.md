@@ -1,6 +1,8 @@
 ---
 title: "Atendimento Terapêutico"
-description: "Sessões individuais de terapia"
+date: 2026-10-05
 ---
 
-Agende sua sessão individualizada para darmos juntos os passos necessários na sua jornada de transformação interna.
+### Como funcionam as sessões
+
+As sessões são virtuais e focadas em criar um espaço seguro de escuta e reflexão.

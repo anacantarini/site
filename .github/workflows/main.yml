@@ -1,9 +1,9 @@
-name: Deploy Hugo Site to Pages
+opname: Deploy Hugo Site to Pages
 
 on:
   push:
     branches:
-      - main # Se a sua branch principal for master, mude para 'master'
+      - develop # Se a sua branch principal for master, mude para 'master'
 
 permissions:
   contents: read

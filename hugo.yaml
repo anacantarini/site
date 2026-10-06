@@ -1,0 +1,44 @@
+baseURL: "https://anacantarini.github.io/site/"
+languageCode: "pt-br"
+title: "Ana Cantarini | Terapeuta"
+theme:
+  - "github.com/gurusabarish/hugo-profile"
+
+params:
+  title: "Ana Cantarini"
+  description: "Apoio terapêutico para te ajudar a fazer novas escolhas e parar de repetir os mesmos ciclos."
+  favicon: "images/avatar.jpg"
+  color:
+    main: "#8B5A2B"
+
+  # Seção Principal (Hero)
+  hero:
+    enable: true
+    intro: "Olá, eu sou a"
+    title: "Ana Cantarini"
+    subtitle: "Atendimento Terapêutico & Escuta Terapêutica"
+    content: "Apoio terapêutico para te ajudar a fazer novas escolhas e abrir espaço interno, com autonomia e no seu próprio tempo."
+    image: "images/avatar.jpg"
+    roundImage: true
+
+  # Seção Sobre Mim
+  about:
+    enable: true
+    title: "Sobre o Atendimento"
+    content: "Você não precisa seguir sozinha. Ter companhia para aprofundar te ajuda a dar saltos de consciência e parar de repetir os mesmos ciclos."
+
+# Menu de Navegação Superior
+menu:
+  main:
+    - name: "Início"
+      url: "/"
+      weight: 1
+    - name: "Sessões"
+      url: "/sessoes/"
+      weight: 2
+    - name: "Podcast"
+      url: "/podcast/"
+      weight: 3
+    - name: "Contato"
+      url: "/contato/"
+      weight: 4

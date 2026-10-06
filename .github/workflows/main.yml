@@ -30,7 +30,7 @@ jobs:
           hugo-version: '0.118.2'
           extended: true
 
-      - name: Build Hugo Site
+- name: Build Hugo Site
         run: hugo --gc --minify --cleanDestinationDir
 
       - name: Upload Artifact

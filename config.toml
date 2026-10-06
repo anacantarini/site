@@ -2,7 +2,7 @@ baseURL = "https://anacantarini.github.io/site/"
 languageCode = "pt-br"
 title = "Ana Cantarini | Terapeuta"
 
-theme = ["github.com/gurusabarish/hugo-profile/v2"]
+theme = ["github.com/gurusabarish/hugo-profile"]
 
 [params]
   title = "Ana Cantarini"

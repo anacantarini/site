@@ -1,22 +1,19 @@
-baseURL = "https://anacantarini.github.io/site/"
+baseURL = "https://anacantarini.github.io/site/" # Substitua 'site' pelo nome exato do seu repo antigo se for diferente
 languageCode = "pt-br"
 title = "Ana Cantarini | Terapeuta"
 
-theme = ["github.com/gurusabarish/hugo-profile"]
-
-[module]
-  [[module.imports]]
-    path = "github.com/gurusabarish/hugo-profile"
+# Aponta para o tema hugo-profile dentro da pasta themes
+theme = "hugo-profile"
 
 [params]
   title = "Ana Cantarini"
   description = "Apoio terapêutico para te ajudar a fazer novas escolhas e parar de repetir os mesmos ciclos."
   favicon = "images/avatar.jpg"
 
-  # Configurações do Tema / Cores
+  # Cor do tema (Tom terroso)
   color = { main = "#8B5A2B" }
-  
-  # Foto e Apresentação Principal (Hero Section)
+
+  # Cabeçalho / Apresentação Principal (Hero Section)
   [params.hero]
     enable = true
     intro = "Olá, eu sou a"
@@ -26,7 +23,7 @@ theme = ["github.com/gurusabarish/hugo-profile"]
     image = "images/avatar.jpg"
     roundImage = true
 
-  # Seção "Sobre" na Página Inicial
+  # Seção Sobre
   [params.about]
     enable = true
     title = "Sobre o Atendimento"
